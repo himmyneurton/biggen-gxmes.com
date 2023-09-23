@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(14, 219, 31);
+    margin: 0%;
+    background-image: url(../images/Biggen\ Games.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     color:red;
@@ -47,3 +50,8 @@ button{
 button:hover{
     background-color: rgb(15, 11, 228);
 }
+<style>
+#monkeymart-iframe{
+    border: none;
+}
+</style>
