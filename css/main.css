@@ -5,11 +5,11 @@ body {
     background-size: cover;
 }
 h1 {
-    color:red;
+    color: white;
     }
 button {
     background-image: 
-    url(https://cdn.discordapp.com/attachments/1152801942188339251/1155261312205602939/background.jpeg);
+    url(../images/imglykit-export\ \(1\).jpeg);
     color: white;
     border-radius: 5px;
     padding-left: 38px;
@@ -21,7 +21,7 @@ button {
 }
 button:hover{
 background-image: 
-url(../images/imglykit-export.jpeg);
+url(https://cdn.discordapp.com/attachments/1152801942188339251/1155299586571771945/backgroundv2.jpg);
 color: grey;
 }
 button{
