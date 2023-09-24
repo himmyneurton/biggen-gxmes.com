@@ -8,22 +8,71 @@ h1 {
     color: white;
     }
 button {
-    background-image: 
-    url(../images/imglykit-export\ \(1\).jpeg);
-    color: white;
-    border-radius: 5px;
-    padding-left: 38px;
-    padding-right: 38px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: sans-serif;
-    font-size: large;
+background-image: url(https://cdn.discordapp.com/attachments/1152801942188339251/1155299586571771945/backgroundv2.jpg);
+  color: grey;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
-button:hover{
-background-image: 
-url(https://cdn.discordapp.com/attachments/1152801942188339251/1155299586571771945/backgroundv2.jpg);
-color: grey;
+
+button:hover {
+  background-image: url(https://media.istockphoto.com/id/1015084902/vector/binary-matrix-background-falling-digits-on-dark-backdrop-running-random-numbers-abstract.jpg?s=612x612&w=0&k=20&c=TPuenImKLn4J9YtNb7GkeSKq704tdxxTIFGMw85e_q8=)
+  ;
+  color: white;
+    /* Rotate */
+    animation: rotate 0.7s linear infinite;
+
+    /* Scale and pop */
+    transform: scale(1.2);
+    transition: transform 0.2s;
+
+    /* Change background color */
+    animation: rainbow 5s infinite;
+
+    /* Blue light effect */
+    box-shadow: 0 0 20px rgba(51, 153, 255, 0.7), 0 0 40px rgba(51, 153, 255, 0.5), 0 0 60px rgba(51, 153, 255, 0.3), 0 0 80px rgba(51, 153, 255, 0.2);
+
+    /* Slightly faster and subtle tilt */
+    animation: tilt 3s alternate infinite;
 }
+
+/* Continuous rainbow color change */
+@keyframes rainbow {
+    0% { background-color: #ff5733; }
+    25% { background-color: #f4ff33; }
+    50% { background-color: #33ff57; }
+    75% { background-color: #337aff; }
+    100% { background-color: #ff33e3; }
+}
+
+/* Rotate animation */
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Slightly faster and subtle tilt animation */
+@keyframes tilt {
+    0% { transform: rotate(2deg); }
+    50% { transform: rotate(-2deg); }
+    100% { transform: rotate(2deg); }
+}
+
+/ Rotate animation /
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/ Slightly faster and subtle tilt animation */
+@keyframes tilt {
+    0% { transform: rotate(2deg); }
+    50% { transform: rotate(-2deg); }
+    100% { transform: rotate(2deg); }
+}
+
 button{
     background-color: black;
     color: white;
