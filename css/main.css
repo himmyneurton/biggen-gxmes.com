@@ -1,6 +1,6 @@
-body {
+  body {
     margin: 0%;
-    background-image: url(../images/Biggen\ Games.png);
+    background-image: url(../images/B-modified.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -52,8 +52,10 @@ button{
 button:hover{
     background-color: rgb(15, 11, 228);
 }
-<style>
-#monkeymart-iframe{
-    border: none;
-}
-</style>
+body {
+    min-height: 100vh;
+  }
+  .sticky {
+  position: sticky;
+    top: 100%;
+  }
